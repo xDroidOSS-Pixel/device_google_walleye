@@ -15,7 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_walleye.mk
+    $(LOCAL_DIR)/xdroid_walleye.mk \
 
 COMMON_LUNCH_CHOICES := \
-    aosp_walleye-userdebug
+    xdroid_walleye-user \
+    xdroid_walleye-userdebug \
+    xdroid_walleye-eng
